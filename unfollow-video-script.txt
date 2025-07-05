@@ -1,0 +1,32 @@
+
+Hey everyone!ne!
+If you’re tired of manually unfollowing hundreds of accounts on Instagram — this video is for you.
+Instagram removed any option to ‘Unfollow All’, but I’ve got a safe and simple solution that still works in 2025.
+
+All you need is your browser — no sketchy apps, no logins, no bots.
+
+I’ll show you a small script you can paste into your browser’s developer console.
+It automatically unfollows people for you, using human-like delays and even skips some accounts to mimic real behavior.
+
+It also has a daily limit — so you don’t get flagged or banned.
+And if you want to stop at any point, you just type one line in the console.
+
+Everything’s transparent and customizable.
+Let me walk you through exactly how to use it step-by-step.”
+
+(Transition to screen demo)!
+If you’re tired of manually unfollowing hundreds of accounts on Instagram — this video is for you.
+Instagram removed any option to ‘Unfollow All’, but I’ve got a safe and simple solution that still works in 2025.
+
+All you need is your browser — no sketchy apps, no logins, no bots.
+
+I’ll show you a small script you can paste into your browser’s developer console.
+It automatically unfollows people for you, using human-like delays and even skips some accounts to mimic real behavior.
+
+It also has a daily limit — so you don’t get flagged or banned.
+And if you want to stop at any point, you just type one line in the console.
+
+Everything’s transparent and customizable.
+Let me walk you through exactly how to use it step-by-step.”
+
+(Transition to screen demo)
