@@ -93,15 +93,35 @@ document.body.appendChild(stopBtn);
     nextButton.click();
     await delay(300);
 
-    const confirmButton = findButton("Unfollow");
-    if (confirmButton) {
-      confirmButton.click();
-      unfollowed++;
-      localStorage.setItem(key, unfollowed); // Save progress in localStorage
-      console.log(`✅ Unfollowed #${unfollowed} today`);
-    } else {
-      console.log(`[${currentTime()}]⚠️ Confirm button not found`);
+nextButton.scrollIntoViewIfNeeded();
+nextButton.click();
+await delay(300);
+
+const confirmButton = findButton("Unfollow");
+if (confirmButton) {
+  confirmButton.click();
+
+  let success = false;
+  for (let j = 0; j < 10; j++) {
+    await delay(500);
+    const updatedButton = findButton("Follow");
+    if (updatedButton) {
+      success = true;
+      break;
     }
+  }
+
+  if (success) {
+    unfollowed++;
+    localStorage.setItem(key, unfollowed);
+    console.log(`✅ Confirmed unfollow #${unfollowed}`);
+  } else {
+    console.warn(`[${currentTime()}] ⚠️ Unfollow not confirmed. Skipping.`);
+  }
+
+} else {
+  console.log(`[${currentTime()}]⚠️ Confirm button not found`);
+}
 
     window.scrollBy(0, randomDelay(50, 150)); // Simulate human scrolling
 
